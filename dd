@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubs Detailing - Premium Car Detailing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .hero {
+            padding: 50px;
+            background: url('car-detailing.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .services, .contact {
+            padding: 40px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Dubs Detailing - Premium Car Care
+    </header>
+    
+    <div class="hero">
+        <p>Your Car, Our Passion</p>
+    </div>
+    
+    <div class="services">
+        <h2>Our Services</h2>
+        <p>✅ Exterior & Interior Detailing</p>
+        <p>✅ Ceramic Coating & Paint Protection</p>
+        <p>✅ Headlight Restoration</p>
+        <p>✅ Engine Bay Cleaning</p>
+        <a href="#contact" class="button">Book Now</a>
+    </div>
+    
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Location: Mobile Services Available</p>
+        <p>📞 Call or Text: 703-789-1225</p>
+        <p>📧 Email: dubsdetailing@example.com</p>
+    </div>
+</body>
+</html>
